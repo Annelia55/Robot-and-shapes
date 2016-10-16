@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Poller_One;
+    src: url("../fonts/Poller_One.ttf");
+}
 .robot {
     position: relative;
     left: 40%;
@@ -21,8 +25,8 @@ div {
     border-radius: 100px 100px 10px 10px;
     border-bottom: 40px double #666;
     background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
-    background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
-    background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+     background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+     background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
     background-size: 50% 100%;
     position: relative;
     left: 70px;
@@ -34,6 +38,32 @@ div {
     border-left: 75px solid transparent;
     border-right: 75px solid transparent;
     border-radius: 20px 20px 100px 100px;
+}
+.left {
+    position: relative;
+    top: -200px;
+    left: -390px;
+    z-index: -1;
+    font-family: Poller_One, verdana, sans-serif;
+    font-weight: bold;
+    font-size: 250px;
+    color: #666;
+    transform: rotate(200deg);
+     -webkit-transform: rotate(200deg);
+     -moz-transform: rotate(200deg);
+}
+.right {
+    position: relative;
+    top: -350px;
+    left: 230px;
+    z-index: -1;
+    font-family: Poller_One, verdana, sans-serif;
+    font-weight: bold;
+    font-size: 250px;
+    color: #666;
+    transform: scaleY(-1) rotate(20deg);
+    -webkit-transform: scaleY(-1) rotate(20deg);
+    -moz-transform: scaleY(-1) rotate(20deg);
 }
 .foot {
     height: 40px;
