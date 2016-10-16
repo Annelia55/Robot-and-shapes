@@ -1,0 +1,49 @@
+.robot {
+    position: relative;
+    left: 40%;
+}
+div {
+    height: 150px;
+    width: 300px;
+}
+.beep {
+    width: 5px;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 10px solid #777;
+    border-bottom: 80px solid #888;
+    position: relative;
+    left: 140px;
+}
+.brain {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px 100px 10px 10px;
+    border-bottom: 40px double #666;
+    background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background-size: 50% 100%;
+    position: relative;
+    left: 70px;
+}
+.torso {
+    height: 0;
+    width: 140px;
+    border-top: 300px solid #bc6;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-radius: 20px 20px 100px 100px;
+}
+.foot {
+    height: 40px;
+    width: 40px;
+    background: #ccc;
+    border-radius: 40px;
+    border: 15px solid #999;
+    position: relative;
+    left: 110px;
+    top: -10px;
+    z-index: -1; /* скрывает часть круга */
+}
+

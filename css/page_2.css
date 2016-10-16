@@ -1,0 +1,67 @@
+
+.shapes {
+    padding: 50px 50px 50px 0;
+}
+.shape_1 {
+    height: 100px;
+    width: 100px;
+    background: #b9e08e;
+    float: left;
+    margin: 0 30px 0 30px;
+    border-radius: 50px 0 0 0;
+}
+.shape_2 {
+    height: 100px;
+    width: 100px;
+    background: #b9e08e;
+    float: left;
+    border-radius: 50px 50px 0 0;
+}
+.shape_3 {
+    height: 100px;
+    width: 100px;
+    background: #b9e08e;
+    float: left;
+    margin: 0 30px 0 30px;
+    border-radius: 50px 0 50px 0;
+}
+.shape_4 {
+    height: 100px;
+    width: 100px;
+    background: #b9e08e;
+    float: left;
+    border-radius: 50px 50px 50px 0;
+}
+.triangle-left {
+    margin: 0 40px 0 30px;
+    width: 0;
+    height: 0;
+    float: left;
+    border-top: 50px solid transparent;
+    border-right: 100px solid #c4b8f4;
+    border-bottom: 50px solid transparent;
+}
+.triangle {
+    height: 0;
+    width: 0;
+    float: left;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #c4b8f4;
+}
+.triangle-right-top {
+    margin-right: 30px;
+    width: 0;
+    height: 0;
+    float: left;
+    border-top: 100px solid #c4b8f4;
+    border-left: 100px solid transparent;
+}
+.trapeze {
+    height: 0;
+    width: 50px;
+    float: left;
+    border-top: 100px solid #ecce1c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
