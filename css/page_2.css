@@ -1,6 +1,22 @@
-
+@font-face {
+    font-family: Poller_One;
+    src: url("../fonts/Poller_One.ttf");
+}
+.sh-link {
+    position: relative;
+    top: 682px;
+    right: 385px;
+    font-size: 24px;
+    font-family: Poller_One, Helvetica;
+}
+.sh-link a {
+    text-decoration: none;
+    color: #666;
+}
 .shapes {
-    padding: 50px 50px 50px 0;
+    position: relative;
+    left: 150px;
+    top: 100px;
 }
 .shape_1 {
     height: 100px;

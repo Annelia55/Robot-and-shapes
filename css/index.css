@@ -2,6 +2,34 @@
     font-family: Poller_One;
     src: url("../fonts/Poller_One.ttf");
 }
+button {
+    font-size: 14px;
+    font-family: Poller_One, Helvetica;
+    padding: 10px;
+    cursor: pointer;
+}
+.flash {
+    position: relative;
+    left: 380px;
+}
+.btncolor {
+    position: relative;
+    float: right;
+    right: 400px;
+    color: #666;
+}
+.sh-link {
+    position: relative;
+    top: 500px;
+    left: 570px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Poller_One, Helvetica;
+}
+.sh-link a {
+    text-decoration: none;
+    color: #666;
+}
 .robot {
     position: relative;
     left: 40%;
@@ -19,14 +47,37 @@ div {
     position: relative;
     left: 140px;
 }
+@keyframes blink {
+    50% {
+        background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background-size: 50% 100%;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background-size: 50% 100%;
+    }
+}
+@-moz-keyframes blink {
+    50% {
+        background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background-size: 50% 100%;
+    }
+}
+.laser {
+    animation: blink .5s infinite;
+    -webkit-animation: blink .5s infinite;
+    -moz-animation: blink .5s infinite;
+}
 .brain {
     height: 150px;
     width: 150px;
     border-radius: 100px 100px 10px 10px;
     border-bottom: 40px double #666;
     background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
-     background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
-     background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
     background-size: 50% 100%;
     position: relative;
     left: 70px;
