@@ -2,26 +2,21 @@
     font-family: Poller_One;
     src: url("../fonts/Poller_One.ttf");
 }
+
 button {
     font-size: 14px;
     font-family: Poller_One, Helvetica;
     padding: 10px;
     cursor: pointer;
-}
-.flash {
-    position: relative;
-    left: 380px;
-}
-.btncolor {
-    position: relative;
-    float: right;
-    right: 400px;
     color: #666;
 }
+
+.buttons {
+    margin-left: 38%;
+}
+
 .sh-link {
     position: relative;
-    top: 500px;
-    left: 570px;
     text-align: center;
     font-size: 24px;
     font-family: Poller_One, Helvetica;
@@ -30,6 +25,10 @@ button {
     text-decoration: none;
     color: #666;
 }
+.sh-link a:hover {
+    color: #b8b8b8;
+}
+
 .robot {
     position: relative;
     left: 40%;
@@ -46,6 +45,7 @@ div {
     border-bottom: 80px solid #888;
     position: relative;
     left: 140px;
+    margin-top: 15px;
 }
 @keyframes blink {
     50% {
@@ -128,3 +128,7 @@ div {
     z-index: -1; /* скрывает часть круга */
 }
 
+/* @media */
+@media screen max-width: 991px {
+
+}

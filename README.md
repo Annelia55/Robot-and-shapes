@@ -1,3 +1,3 @@
 # Robot-and-shapes
-[Try it](https://cdn.rawgit.com/Annelia55/Robot-and-shapes/master/index.html)
+[Try it](https://rawgit.com/Annelia55/Robot-and-shapes/master/index.html)
 ![Picture](Picture.png)

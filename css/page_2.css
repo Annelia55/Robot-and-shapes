@@ -13,6 +13,10 @@
     text-decoration: none;
     color: #666;
 }
+.sh-link a:hover {
+    color: #b8b8b8;
+}
+
 .shapes {
     position: relative;
     left: 150px;
