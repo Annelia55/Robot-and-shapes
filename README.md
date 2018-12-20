@@ -1,3 +1,3 @@
 # Robot-and-shapes
-[Try it](https://rawgit.com/atanyday/Robot-and-shapes/master/index.html)
+[Try it](https://atanyday.github.io/Robot-and-shapes/)
 ![Picture](Picture.png)
